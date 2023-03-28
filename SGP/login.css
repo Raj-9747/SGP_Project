@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 8px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    /* background-color: #f2f2f2; */
+    padding: 5px 20px 15px 20px;
+    /* border: 1px solid black;
+    border-radius: 8px; */
+    width: 600px;
+}
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: rgb(106, 188, 250);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 180px;
+    height: 40px;
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(45, 164, 255);
+    width: 200px;
+    height: 50px;
+}
+h6{
+    color: rgb(110, 173, 255);
+}
+h6:hover{
+    color: rgba(66, 107, 255, 0.834);
+}
+h4{
+    color: gray;
+}
+h4:hover{
+    color: honeydew;
+}
+h4{
+    cursor: pointer;
+}
+.Foot{
+    box-shadow: 0px 5px 100px rgba(0, 0, 0, 0.25);
+}
+.icon{
+    size: 50px;
+}
+.main{
+    padding: 200px;
+    /* opacity: 0.5; */
+    z-index: 10;
+    padding-left: 425px;
+    padding-right: 300px;
+    align-items: center;
+}
+
+img {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    /* Specify the background image to be used */
+    /* background-image: url(../SGP/ss.png); */
+    /* background-size: cover; */
+    /* Specify the background image */
+    z-index: -1;
+    opacity: 0.6;
+}
+.h6{
+    display: flex;
+}
+.h51{
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+}
+.h52{
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+}
+.headLogin{
+    padding: 100px 100px 0px 160px;
+}
+.loginwith{
+    padding: 0px 0px 100px 190px;
+}
+.header{
+    background-color: rgb(106, 188, 250);
+    width: 600px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.maincontainer{
+    border: 1px solid rgb(189, 189, 189);
+    width: 602px;
+    border-radius: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.img1{
+    position: fixed;
+}
+.icon{
+    color: aliceblue;
+    padding: 0px 0px 0px 95%;
+}
+.container2:hover{
+    height: 50px;
+}
+form,.container{
+    background-color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 30px;
+  height: 33px;
+  text-align: center;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-align: center;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    width: 30px;
+    height: 33px; 
+      border-radius: 35px; 
+      text-align: center;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 33px;
+  height: 33px; 
+  text-align: center;
+  }
+  .fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+    color :white;
+  width: 33px;
+  height: 33px; 
+    border-radius: 35px;  
+    text-align: center;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+/* .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+} */
